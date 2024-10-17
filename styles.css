@@ -109,6 +109,7 @@ nav{
 
 .diagram{
     height: 50%;
+    width: 100%;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -154,4 +155,32 @@ nav{
         padding: 1rem 2rem;
     }
 
+
+    .diagram{
+        flex-direction: column;
+        gap: 5rem;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .left, .right{
+        width: 50%;
+    }
+
+
+    .diagram .diagram-icon{
+        height: 2.2233rem;
+        width: 2.223rem;
+    }
+    
+    .diagram-title{
+        font-size: 3.809rem;
+        overflow-y: hidden;
+    }
+    
+    .diagram-text{
+        font-size: 1.5rem;
+        color: var(--grey-color);
+    }
+    
 }
