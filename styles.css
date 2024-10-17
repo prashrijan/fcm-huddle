@@ -1,5 +1,7 @@
 :root{
     --pink-color: #FF52C1;
+    --black-color: hsl(192, 100%, 9%);
+    --grey-color: #808E9A;
 }
 
 *{ 
@@ -7,6 +9,7 @@
     padding:0;
     box-sizing: border-box;
     overflow-x: hidden;
+    /* outline: 1px solid black; */
 }
 
 html,body{
@@ -63,7 +66,7 @@ nav{
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    padding: 10rem 2rem;
+    padding: 10rem 2rem 5rem ;
     gap: 5rem;
 }
 
@@ -80,6 +83,7 @@ nav{
 
 .hero-top h2{
     font-size: 3rem;
+    color: var(--black-color);
 }
 
 .hero-top p{
@@ -101,6 +105,34 @@ nav{
 
 .hero img.hero-img{
     max-width: 100%;
+}
+
+.diagram{
+    height: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 30rem;
+    font-family: 'Poppins';
+}
+
+
+.diagram .diagram-icon{
+    height: 3.5rem;
+    width: 3.5rem;
+}
+
+.diagram-title{
+    font-size: 6rem;
+    color: var(--black-color);
+
+    line-height: 1;
+    overflow-y: hidden;
+}
+
+.diagram-text{
+    font-size: 1.5rem;
+    color: var(--grey-color);
 }
 
 
