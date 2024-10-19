@@ -136,6 +136,30 @@ nav{
     color: var(--grey-color);
 }
 
+.grow-together .bg{
+    width: 100vw;
+}
+
+.grow-together .content{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 2rem 5rem;
+    gap: 5rem;
+    background-color: #f6fbfe;
+}
+
+.grow-right{
+    height: 50vh;
+}
+
+.grow-left h2{
+    font-size: ;
+}
+
+
+
+
 
 
 @media screen and (max-width: 37rem) {
