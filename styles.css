@@ -150,7 +150,10 @@ nav{
     justify-content: center;
     padding: 2rem 5rem;
     gap: 5rem;
+}
 
+.flowing-conversations{
+    margin-top: 4rem;
 }
 
 .grow-together .content{
