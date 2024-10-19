@@ -9,6 +9,7 @@
     padding:0;
     box-sizing: border-box;
     overflow-x: hidden;
+    /* outline: 1px solid black; */
 }
 
 html,body{
@@ -125,7 +126,6 @@ nav{
 .diagram-title{
     font-size: 6rem;
     color: var(--black-color);
-
     line-height: 1;
     overflow-y: hidden;
 }
@@ -133,6 +133,11 @@ nav{
 .diagram-text{
     font-size: 1.5rem;
     color: var(--grey-color);
+}
+
+.grow-together{
+    display: flex;
+    flex-direction: column;
 }
 
 .grow-together .bg{
@@ -149,12 +154,15 @@ nav{
 }
 
 .grow-right{
-    height: 50vh;
+    height: 40vh;
 }
 
 .grow-left{
     font-family: 'Open Sans';
     color: var(--black-color);
+    display : flex;
+    flex-direction: column;
+    gap: 1rem;
 }
 
 .grow-left h2{
@@ -164,6 +172,7 @@ nav{
 .grow-left p{
     font-size: 1rem;
     width: 32.5rem;
+    line-height: 1.5;
 }
 
 
