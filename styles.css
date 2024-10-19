@@ -17,6 +17,10 @@ html,body{
     height:100%;
 }
 
+h2{
+    font-family: 'Open Sans';
+}
+
 
 .wrapper{
     height: 100vh;
@@ -91,7 +95,7 @@ nav{
     font-size: 1.25rem;
 }
 
-.hero-top .hero-btn{
+.hero-btn{
     margin-top: 1rem;
     padding: 1.5rem 3.4rem;
     font-size: 1.25rem;
@@ -184,8 +188,18 @@ nav{
 }
 
 
+.cta{
+    display : flex;
+    align-items : center;
+    justify-content: center;
+    flex-direction: column;
+    padding: 10rem 0;
+    gap: 1rem;
+}
 
-
+.cta h2{
+    font-size: 2.5rem;
+}
 
 
 @media screen and (max-width: 37rem) {
